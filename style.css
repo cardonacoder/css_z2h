@@ -1,0 +1,26 @@
+body {
+    background-color: cornsilk;
+}
+
+.title {
+    color: cadetblue;
+}
+
+/* ↓↓↓↓↓↓↓ Pseudo selectors - Elements & classes ↓↓↓↓↓↓↓ */
+
+li:first-child {
+    color: crimson;
+}
+
+li:hover:nth-child(2) {
+    color: darkmagenta;
+}
+
+
+/* ↓↓↓↓↓↓↓ advanced selectors ↓↓↓↓↓↓↓ */
+
+h2 + code:hover {
+    background-color: darkviolet;
+    color: whitesmoke;
+    font-size: x-large;
+}
